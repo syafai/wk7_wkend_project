@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+body{
+  font-family:Arial, Helvetica, sans-serif;
+  background-image: url(/images/pexels-johannes-plenio-1118873.jpg); 
+  background-repeat: none;
+  background-size: 100%;
+  
+}
+
+.input{
+  text-align: center;
+  margin: 50px 0;
+}
+
+input[type="text"]{
+  height: 50px;
+  width: 600px;
+  background: rgb(48, 48, 1);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  border: none;
+  border-radius: 3px;
+  padding: 10px 10px;
+}
+
+input[type="submit"]{
+  height: 50px;
+  width: 100px;
+  background: rgb(135, 113, 104);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  border: none;
+  border-radius: 3px;
+}
+
+h1{
+  margin: 30px;
+  text-align: center;
+}
+
+.display{
+  text-align: center;
+  color: rgb(81, 81, 130);
+}
